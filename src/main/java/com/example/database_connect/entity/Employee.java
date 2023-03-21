@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.NonNull;
 
 @Entity
 @Table
@@ -18,6 +19,7 @@ public class Employee {
     private String name;
     @Column
     private float salary;
-
+    @Column
+    private int age;
 
 }

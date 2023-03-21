@@ -38,4 +38,9 @@ public class EmployeeController {
     public void deleteEmployee(@PathVariable int id){
         service.deleteEmp(id);
     }
+
+    @PutMapping("update/hike")
+    public List<Employee> hike(){
+        return service.hike();
+    }
 }

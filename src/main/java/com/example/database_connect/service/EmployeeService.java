@@ -12,4 +12,5 @@ public interface EmployeeService {
     public Employee getEmpId(int id);
     public Employee updateEmp(Employee emp,int id);
     public void deleteEmp(int id);
+    public List<Employee> hike();
 }
